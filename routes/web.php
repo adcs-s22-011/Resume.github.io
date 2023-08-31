@@ -9,4 +9,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', [IndexController::class, 'index'])->name('frontend.index');
+Route::get('/index', [IndexController::class, 'index'])->name('frontend.index');
